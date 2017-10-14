@@ -6,7 +6,7 @@ def line(arr)
   else
     in_line = "The line is currently\\:"
     arr.each do |name|
-      in_line << " #{katz_deli.index(name) + 1}. #{name}"
+      in_line << " #{arr.index(name) + 1}. #{name}"
     end
     puts in_line
   end
