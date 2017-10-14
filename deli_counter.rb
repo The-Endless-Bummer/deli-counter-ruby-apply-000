@@ -1,11 +1,11 @@
 katz_deli = []
 
-def line
-  if katz_deli.empty?
+def line(arr)
+  if arr.empty?
     "The line is currently empty."
   else
     in_line = "The line is currently\\:"
-    katz_deli.each do |name|
+    arr.each do |name|
       in_line << " #{katz_deli.index(name) + 1}. #{name}"
     end
   end
