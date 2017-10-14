@@ -4,7 +4,7 @@ def line(arr)
   if arr.empty?
     puts "The line is currently empty."
   else
-    in_line = "The line is currently\\:"
+    in_line = "The line is currently:"
     arr.each do |name|
       in_line << " #{arr.index(name) + 1}. #{name}"
     end
