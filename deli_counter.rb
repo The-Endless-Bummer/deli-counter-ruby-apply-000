@@ -8,6 +8,7 @@ def line(arr)
     arr.each do |name|
       in_line << " #{katz_deli.index(name) + 1}. #{name}"
     end
+    puts in_line
   end
 end
 
